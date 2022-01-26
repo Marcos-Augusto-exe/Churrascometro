@@ -1,0 +1,116 @@
+body{
+    background-image: url(./imagens/fundo.webp);
+    background-size: contain;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 310px;
+    margin: 70px auto;
+    background-color: white;
+    border: solid 2px #b72b2e;
+    padding: 0px 20px 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    z-index: 300;
+
+}
+#img1{
+    width: 250px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ffe17f;
+    color: #b72b2e;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    outline: none;
+}
+label{
+    font-size: 16px;
+    text-align: left;
+}
+
+button{
+    width: 120px;
+    padding: 8px;
+    font-size: 1.2rem;
+    color: #b72b2e;
+    border: solid 2px #b72b2e;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #ffe17f;
+    cursor: pointer;
+}
+button:hover{
+    color: #ffe17f;
+    border: solid 2px #ffe17f;
+    background-color: #b72b2e;
+}
+
+.img{
+    width: 20px;
+    display: inline-block;
+    
+}
+
+#resultado{
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 310px;
+    width: 100%;
+    background-color: white;
+    border: solid 2px #b72b2e;
+    color: #b72b2e;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    z-index: 300;
+    text-align: center;
+    display: none;
+}
+p{
+    text-align: left;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#fundo{
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+}
+.abrir{
+    display:block !important; 
+}
+
+.index{
+    z-index: 100 !important;
+}
